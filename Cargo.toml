@@ -1,0 +1,15 @@
+[package]
+name = "shasum-check"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "shacheck"
+path = "src/main.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+colored = "2.0.0"
+regex = "1.7.3"
+sha2 = "0.10.6"
